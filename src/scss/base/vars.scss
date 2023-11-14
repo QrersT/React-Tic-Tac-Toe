@@ -1,0 +1,30 @@
+$font-base: "Lato", sans-serif;
+
+/* $color-golden: #dcca87;
+$color-black: #0c0c0c;
+$color-gray: #545454;
+$color-crimson: #f5efdb;
+$color-grey: #aaaaaa;
+$color-white: #ffffff; */
+
+$color-black: #131921;
+$color-orange: #febd69;
+$color-grey: #232f3e;
+$color-light_grey: #f3f2f3;
+//variables
+$md1: 1050;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+//-----------------------------------------------------------------
+
+._btn-theme {
+  background-color: $color-orange;
+  font-weight: 900;
+  transition: all 0.3s ease 0s;
+  border-radius: 5px;
+  padding: 10px;
+  &:hover {
+    background-color: #a56f29;
+  }
+}

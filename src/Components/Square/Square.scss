@@ -1,0 +1,17 @@
+.square {
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+  @include adaptiv-value("width", 100, 70, 1);
+  @include adaptiv-value("height", 100, 70, 1);
+  &:hover {
+    background-color: #bebebe;
+  }
+}

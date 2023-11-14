@@ -1,0 +1,34 @@
+/* base */
+@import "./scss/base/bootstrap-reboot";
+@import "./scss/base/container";
+@import "./scss/base/vars";
+@import "./scss/base/mixins";
+@import "./scss/base/burgerAnimationIcon";
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* Components */
+@import "./components/Game/Game.scss";
+@import "./components/Board/Board.scss";
+@import "./components/Square/Square.scss";
+@import "./components/Modal/Modal.scss";
+
+/* Container */
+/* @import "./container/AboutUs/AboutUs.scss";
+@import "./container/Chef/Chef.scss";
+@import "./container/Footer/Footer.scss";
+@import "./container/Gallery/Gallery.scss";
+@import "./container/Header/Header.scss";
+@import "./container/Intro/Intro.scss";
+@import "./container/Laurels/Laurels.scss";
+@import "./container/Menu/SpecialMenu.scss"; */
+
+body {
+  color: black;
+  font-family: "Cormorant Upright";
+  font-weight: 500;
+}
+
+._player-active {
+  background: greenyellow;
+}

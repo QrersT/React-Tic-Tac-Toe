@@ -1,0 +1,50 @@
+.game {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board {
+  margin: 20px 0;
+}
+
+/* .user-info {
+  position: absolute;
+  top: 0;
+  padding: 30px;
+  background-color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.user-info[data-user="0"] {
+  left: 0;
+}
+.user-info[data-user="1"] {
+  right: 0;
+} */
+
+.player1-stats,
+.player2-stats {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  top: 0;
+}
+
+.player1-stats {
+  left: 0;
+}
+.player2-stats {
+  right: 0;
+}
+
+.who-goes {
+  font-size: 30px;
+  font-weight: bold;
+}
